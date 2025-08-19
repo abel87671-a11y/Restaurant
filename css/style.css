@@ -1,0 +1,54 @@
+.dropdown:hover.dropdown-menu {
+    display: block !important;
+}
+
+h1 {
+    font-size: 75px;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 50px !important;
+    font-weight: 700;
+}
+
+.btn {
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #EEB221;
+}
+
+.btn:hover {
+    background: darkblue;
+    color: white;
+    border-radius: 20px;
+
+}
+
+@media (max-width: 991px) {
+    h1 {
+        font-size: 44px !important;
+        font-weight: 700 !important;
+    }
+}
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 24px !important;
+        font-weight: 700 !important;
+    }
+
+    .hero-section p {
+        font-size: 16px !important;
+    }
+}
+
+
+
+
+
+.shadows-into-light-regular {
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 900;
+    font-style: normal;
+}
